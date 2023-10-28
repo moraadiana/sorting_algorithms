@@ -59,7 +59,7 @@ void merge(int *arr, int *tmp, int start, int mid, int end)
         /* merging remaining right array into main array*/
         while (right < size_right)
                 arr[i] = array_right[right], right++, i++;
-        printf("Merging...\n");
+        printf("Merging...");
         printf("[left]: ");
         print_array(array_left, left);
         printf("[right]: ");
